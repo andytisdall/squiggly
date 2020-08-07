@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 4%;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grid {
+  width: 870px;
+}
+
+</style>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Squiggly Lines</title>
+        <br>
+    </head>
+
+    <body>
+      <div class = 'selection'>
+      </div>
+      <div class="grid">
+      </div>
+      <div class = 'information'>Speed (ms): 
+          <input type="text" class="speed">
+      </div>
+      <script src="squiggly.js"></script>
+    </body>
+</html>
